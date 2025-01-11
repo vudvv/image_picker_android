@@ -46,11 +46,6 @@ android {
         testImplementation "org.robolectric:robolectric:4.10.3"
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
     testOptions {
         unitTests.includeAndroidResources = true
         unitTests.returnDefaultValues = true
